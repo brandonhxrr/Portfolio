@@ -22,31 +22,30 @@ const MainContent = () => {
   const backgroundImageUrl = ` linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('${imageList[backgroundImage]}')`;
 
   return (
-    <div className="relative isolate px-6 pt-14 lg:px-8"
-    style={{ backgroundImage: backgroundImageUrl, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center' }}>
-        <div className="relative isolate px-6 pt-14 lg:px-8 flex items-center justify-center min-h-screen">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-slate-50 sm:text-7xl">
-              Brandon Herrera
-            </h1>
-            <h2 className="text-xl font-bold text-slate-50 sm:text-4xl pt-4">
-                Software engineer
-            </h2>
-            <h3 className="text-xs font-bold text-slate-50 sm:text-2xl m-1">
-                @brandonhxrr
-            </h3>
-            <div className="mt-10 flex items-center justify-center">
-              <a
-                href="./files/Brandon_Herrera_resume.pdf"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Check my resume
-              </a>
-            </div>
+    <div className="relative isolate px-6 lg:px-8" style={{ backgroundImage: backgroundImageUrl, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center' }}>
+      <div className="relative isolate flex items-center justify-center min-h-screen px-6 pt-14 lg:px-8">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold tracking-tight text-slate-50 sm:text-7xl">
+            Brandon Herrera
+          </h1>
+          <h2 className="text-2xl font-bold text-slate-50 sm:text-4xl pt-1 sm:pt-4">
+            Software engineer
+          </h2>
+          <h3 className="text-base font-bold text-slate-50 sm:text-2xl m-1">
+            @brandonhxrr
+          </h3>
+          <div className="mt-20 flex items-center justify-center">
+            <a
+              href="./files/Brandon_Herrera_resume.pdf"
+              className="rounded-full bg-transparent px-10 py-3 text-sm font-semibold text-white shadow-sm border-indigo-100 border-2 backdrop-blur"
+            >
+              Check my resume
+            </a>
           </div>
         </div>
-        
+      </div>
     </div>
+
   );
 };
 
