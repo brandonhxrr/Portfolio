@@ -20,13 +20,13 @@ const Header = ({ navigation, mobileMenuOpen, setMobileMenuOpen }: HeaderProps) 
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Brandon Herrera</span>
-                <p>BH</p>
+                <p className="text-slate-50 font-bold text-xl">BH</p>
               </a>
           </div>
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-50"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -35,13 +35,13 @@ const Header = ({ navigation, mobileMenuOpen, setMobileMenuOpen }: HeaderProps) 
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item:any) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-slate-50">
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="mailto:brandondh769@gmail.com?subject=Portfolio Contact" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="mailto:brandondh769@gmail.com?subject=Portfolio Contact" className="text-sm font-semibold leading-6 text-slate-50">
               Contact
             </a>
           </div>
