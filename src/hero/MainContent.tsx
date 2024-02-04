@@ -22,14 +22,9 @@ const MainContent = () => {
   const backgroundImageUrl = ` linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('${imageList[backgroundImage]}')`;
 
   return (
-    <div className="relative isolate px-6 pt-14 lg:px-8 bg-gradient-to-r from-cyan-500 to-blue-500"
+    <div className="relative isolate px-6 pt-14 lg:px-8"
     style={{ backgroundImage: backgroundImageUrl, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center' }}>
-      <div
-          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-          aria-hidden="true"
-        >
-        </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="relative isolate px-6 pt-14 lg:px-8 flex items-center justify-center min-h-screen">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-slate-50 sm:text-7xl">
               Brandon Herrera
