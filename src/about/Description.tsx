@@ -1,4 +1,4 @@
-import { Socials } from "./Socials";
+import { Socials } from "../hero/Socials";
 const Description = () => {
   return (
     <div className="bg-gray-950">
