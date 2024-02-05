@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./hero/Header";
 import MainContent from "./hero/MainContent";
 import Description from "./about/Description";
+import { Skills } from "./skills/Skills";
 
 const navigation = [
   { name: "About", href: "#about" },
@@ -23,6 +24,7 @@ const App = () => {
       />
       <MainContent />
       <Description />
+      <Skills />
     </div>
   );
 };
