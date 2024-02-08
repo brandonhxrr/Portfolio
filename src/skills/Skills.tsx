@@ -61,15 +61,15 @@ function Skills() {
       <h1 className="text-6xl font-bold pt-20 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
         Skills
       </h1>
-      <div className="flex p-10 sm:p-20 justify-center flex-wrap">
+      <div className="flex p-10 md:p-20 justify-center flex-wrap">
         {skillsData.map((skill, index) => (
-          <div key={index} className="inline-flex p-3 sm:p-5">
+          <div key={index} className="inline-flex p-3 md:p-5">
             <img
               src={skill.icon}
               alt={`${skill.name} icon`}
-              className="inline-block w-10 sm:w-10 pe-0 sm:pe-2"
+              className="inline-block w-10 md:w-10 pe-0 md:pe-2"
             />
-            <p className="text-lg text-white sm:inline-block self-center font-bold hidden">
+            <p className="text-lg text-white md:inline-block self-center font-bold hidden">
               {skill.name}
             </p>
           </div>
