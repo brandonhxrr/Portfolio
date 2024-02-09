@@ -58,7 +58,7 @@ const skillsData = [
 function Skills() {
   return (
     <div className="h-screen w-screen bg-gray-950 text-center">
-      <h1 className="text-6xl font-bold pt-20 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
+      <h1 className="text-6xl font-bold mt-20 p-3 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-white rounded-md">
         Skills
       </h1>
       <div className="flex p-10 md:p-20 justify-center flex-wrap">
