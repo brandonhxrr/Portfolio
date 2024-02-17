@@ -4,6 +4,7 @@ import MainContent from "./hero/MainContent";
 import Description from "./about/Description";
 import { Skills } from "./skills/Skills";
 import { Projects } from "./projects/Projects";
+import { Contributions } from "./contributions/Contributions";
 
 const navigation = [
   { name: "About", href: "#about" },
@@ -27,6 +28,7 @@ const App = () => {
       <Description />
       <Skills />
       <Projects />
+      <Contributions />
     </div>
   );
 };
